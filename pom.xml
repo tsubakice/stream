@@ -16,7 +16,6 @@
 
   <properties>
     <reactor.version>2025.0.0-M4</reactor.version>
-    <junit.version>5.12.2</junit.version>
   </properties>
 
   <dependencyManagement>
@@ -27,12 +26,6 @@
         <version>${reactor.version}</version>
         <type>pom</type>
         <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <version>${junit.version}</version>
-        <scope>test</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>
